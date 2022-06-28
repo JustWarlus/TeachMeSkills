@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26px;
+    
+}
+
+.conteiner {
+    width: 64%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 90px;
+    text-transform: uppercase;
+    margin: 188px 0 0 0;
+    color: #212733;
+}
+
+.first-block {
+    text-align: center;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.zero-block {
+    background-image: url(./img/backround-first-block.png);
+    min-height: 1030px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.special-offer {
+    margin: 60px auto 0;
+    
+    border: 1px solid #000000;
+    background-color: transparent;
+    padding: 20px 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.special-offer img {
+    margin-left: 40px;
+}
+
+.photo-table {
+    background-image: url(./img/table.png);
+    width: 50%;
+    min-height: 940px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-company {
+    display: flex;
+    text-align: right;
+}
+
+.text-about-company {
+    display: flex;
+    width: 50%;
+    background: #F1F1F1;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.scroll {
+    margin: 388px 138px;
+}
+
+.text-about {
+    margin: 275px 62px 275px 107px;
+}
+
+.text-about-company p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #494949;
+    margin: 20px 0; 
+}
+
+.hover {
+    color: #606060 !important;
+}
+
+.conteiner h2 {
+    text-align: center;
+    margin: 90px 0 0 0;   
+}
+
+.gadgets {
+    background-image: url(./img/gatgets.svg);
+    height: 764px;
+    min-width: 1214px;
+    background-repeat: no-repeat;
+    margin: 90px 0 0 0;   
+}
+
+.gadgets button {
+  margin: 227px 60px 0 auto;
+}
+
+.gadgets-scroll {
+    display: flex;
+}
+
+.gadgets-scroll .scroll {
+    margin-bottom: 0;
+}
+
+.offers {
+    background-color: #1A1F25;
+    padding-top: 90px;
+}
+
+.offers h2 {
+    color: #FFFFFF;
+    margin: 90px 0 80px;
+}
+
+.servise {
+    width: 20%;
+    text-align: center;
+    padding: 46px 19px;
+    border: 1px #FFFFFF;
+    max-width: 243px;
+}
+
+.servise p {
+    max-width: 203px;
+    color: #FFFFFF;
+}
+
+.group-services {
+    display: flex;
+    border-bottom: 1px solid #595959;
+}
+
+.servise button, .request .request-form button {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    width: 185px;
+    height: 55px;
+    margin: auto;
+
+}
+
+.btn-servise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-group {
+    justify-content: center;
+    border-bottom: none;
+    border-right: none;
+}
+
+.center-servise {
+    border-left: 1px solid #595959;
+}
+
+.last-group .center-servise:first-child{
+    border-left: none;
+
+}
+
+.our-benefits {
+    background-image: url(./img/our-benefits.png);
+    
+ 
+    background-repeat: no-repeat;
+}
+
+.our-benefits  h2 {
+    padding: 336px 0 90px;
+    margin: 0;
+    text-align: left;
+}
+
+.our-benefits .conteiner {
+    padding-bottom: 85px;
+}
+
+.group-benefits {
+    display: flex;
+    margin: 0 0 60px 0;
+}
+
+.benefit {
+    display: flex;
+    margin: 0 112px 0 0;
+}
+
+.benefit p {
+    margin: 0 0 0 20px;
+    max-width: 430px;
+}
+
+.benefit img {
+    max-height: 50px;
+}
+
+.request-form {
+    flex: 1;
+    background-image: url(./img/request.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.request {
+    display: flex;
+    min-height: 940px;
+}
+
+.spec-offer {
+    flex: 1;
+    background-color: #000201;
+    color: #FFFFFF;
+}
+
+.request h2 {
+    margin-top: 173px;
+    color: #FFFFFF;
+    margin-left: 353px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 73px 0 353px;
+}
+
+form input {
+    background-color: transparent;
+    border-bottom: 1px solid #FFFFFF !important;
+    padding: 40px 5px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form input::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.message {
+    padding-bottom: 100px;
+}
+
+.request .request-form button {
+    margin: 80px 0 0;
+}
+
+footer {
+    background-color: #17181C;
+    color: #FFFFFF;
+    display: flex;
+    padding: 103px 0;
+}
+
+footer .fot-top {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 45px;
+
+}
+
+footer div {
+    width: 22%;
+    
+}
+
+.contacts {
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 0 31px 0;
+}
+
+.contacts img {
+    margin-right: 16px;
+}
+
+footer div p{
+    font-style: normal;
+    font-weight: 200 !important;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E6E6E6;
+}
+
+footer div p:first-child {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+    padding: 40px 0 0 0;
+    border-top: 1px solid #595959;
+}
+
+.social-links img {
+    margin-left: 10px;
+}
+
+.social-links {
+    width: auto;
+}
+
+.logolink {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+}
+
+.spec-offer h2{
+    margin: 173px 0 138px 135px
+}
+
+.group-offers {
+    display: flex;
+    margin: 138px 0 0 30px;
+}
+
+.price {
+    width: 194px;
+    height: 284px;
+    border: 1px solid #FFFFFF;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price-title {
+    margin: 59px 0 0 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.price-description {
+    margin: 15px 14px 0 15px;
+    color: #E8E8E8;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.old-price {
+    margin: 44px 6px 0 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: line-through;
+}
+
+.discount {
+    margin: 0 0 30px 15px;
+}
+
+.price:hover {
+    background: linear-gradient(180deg, #61B3C9 0%, #074D88 100%);
+}
