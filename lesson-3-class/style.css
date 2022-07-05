@@ -1,0 +1,206 @@
+img {
+    width: 50%;
+}
+
+.main-block {
+    margin: auto;
+    width: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    background-color: aqua 
+}
+
+.block {
+    margin-top: 100px;
+    margin-left: 35%;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #d0dd;
+}
+
+.block img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq {
+    margin:100px auto;
+    width: 40%;
+}
+
+.faq-vopr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d0dd;
+    padding: 15px 0;
+}
+
+.faq-vopr-kvadrat {
+    height: 16px;
+    width: 16px;
+    background-color: black;
+}
+
+
+/* второй фак */
+.faq-2 {
+    margin: 100px 30%;
+    
+}
+
+.kvadrat {
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    margin-left: calc(100% - 16px);
+
+}
+
+.otv {
+    margin-bottom: -16px;
+}
+
+.vopr {
+    margin: 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f24;
+}
+
+/* третий фак */
+
+.faq-3 {
+    margin-top: 150px;
+    margin: 100px 30%;
+}
+
+.vopr-2 {
+    position: relative;
+    border-bottom: 3px solid #f94;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.kvadrat-2 {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    right: 0;
+    top: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* ХЗ как назвать */
+
+.world-peace {
+    width: 65%;
+    
+}
+
+.world {
+    position: relative;
+    width: 80%;
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 200px;
+    
+}
+
+.world img {
+    position: absolute;
+    left: calc(65% + 40px);
+    top: -60px;
+    width: 33%;
+}
+
+.world h2 {
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+.world-peace-yes {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 22px;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+/* Три фотки */
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f94;
+}
+
+.strock {
+    width: 10%;
+    height: 300px;
+    border: 2px solid #000;
+    margin-left: 20px;
+
+    
+}
+
+.main-photo {
+    width: 50%;
+    height: 170px;
+    margin: 0 auto;
+    background-color: #f24;
+}
+
+.main-desc {
+    margin-top: 30px;
+}
+
+table {
+    border-spacing: 10px 10px;
+}
+
+/* платье */
+
+.prev {
+    width: 80%;
+    margin-top: 150px;
+    
+}
+
+.prev-one {
+    width: 40%;
+    position: relative;
+    
+}
+
+.pic {
+    
+    width: 60%;
+    
+    
+}
+
+.pic img {
+    width: 100%;
+}
+.prev-one-text {
+    position: absolute;
+    margin: 0 auto;
+    width: 80%;
+    
+    bottom: 0;
+    right: 50%;
+}
