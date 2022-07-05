@@ -193,13 +193,10 @@ h2 {
 
 .last-group .center-servise:first-child{
     border-left: none;
-
 }
 
 .our-benefits {
     background-image: url(./img/our-benefits.png);
-    
- 
     background-repeat: no-repeat;
 }
 
